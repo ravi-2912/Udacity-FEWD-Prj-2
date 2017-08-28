@@ -100,10 +100,6 @@ footer {
         font-size: .75em;
     }
 
-    .navbar-nav {
-        text-align: center;
-    }
-
     .navbar-nav a {
         max-width: 30px;
         margin-left: 10px;

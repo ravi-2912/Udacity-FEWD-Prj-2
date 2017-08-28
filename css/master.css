@@ -149,7 +149,7 @@ footer {
 }
 
 @media screen and (max-width: 350px) {    
-    figcaption p {
+    .featured-work figcaption p {
         max-width: 250px;
         margin-left: auto;
         margin-right: auto;
@@ -166,6 +166,6 @@ footer {
         display: float;
         float: right;
         text-align: left;
-   }
-    
+   }  
+   
 }

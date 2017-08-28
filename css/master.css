@@ -22,16 +22,21 @@ header {
     padding-bottom: 0;
 }
 
+.navbar-expand-lg {
+    flex-wrap: wrap;
+}
+
 .navbar-toggler {
     border: none;
 }
 
-.brand {
+.logo {
     padding-top: 10px;
 }
 
 .brand-name {
-    padding-top: 5px;
+    float: right;
+    padding-top: 0px;
 }
 
 .hero {

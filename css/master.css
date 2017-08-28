@@ -63,6 +63,21 @@ footer {
     border-top: 1px solid #7d97ad;
 }
 
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .featured-work figcaption {
+        padding-left: 10px;
+        display: float;
+        float: right;
+        text-align: left;
+   }     
+}
+
+@media screen and (min-width: 992px) {
+    .hidden-md-up {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .brand-name hgroup, .brand-name h1 {
         display: inline;
@@ -90,7 +105,6 @@ footer {
         text-align: middle;
     }
 
-    /**** TODO: nav-absolute to be resolved for a nicer drop down menu ****/
     .navbar-nav a {
         max-width: 30px;
         margin-left: 10px;
@@ -151,12 +165,6 @@ footer {
     
 }
 
-@media screen and (min-width: 992px) {
-    .hidden-md-up {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 350px) {    
     .featured-work figcaption p {
         max-width: 250px;
@@ -167,14 +175,4 @@ footer {
     .brand-name h1 {
         font-size: 1.4em;
     }
-}
-
-@media screen and (max-width: 1199px) and (min-width: 768px) {
-    .featured-work figcaption {
-        padding-left: 10px;
-        display: float;
-        float: right;
-        text-align: left;
-   }  
-   
 }

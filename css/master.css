@@ -69,6 +69,12 @@ footer {
         float: right;
         text-align: left;
    }     
+
+   .featured-work figcaption p {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -101,8 +107,8 @@ footer {
     }
 
     .navbar-nav a {
-        max-width: 30px;
-        margin-left: 10px;
+        max-width: 40px;
+        margin-left: 20px;
         margin-right: auto;
         padding: 5px;        
     }

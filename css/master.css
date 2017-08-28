@@ -78,7 +78,7 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-    .brand-name h1 {
+    .brand-name, .brand-name h1 {
         display: inline;
     }
 

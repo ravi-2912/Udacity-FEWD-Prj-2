@@ -30,11 +30,11 @@ module.exports = function(grunt) {
                     /*engine: 'im',*/
                     sizes: [{
                         name: "1x",
-                        width: 1110,            
+                        width: 1140,            
                         quality: 80
                     }, {
                         name: "2x",
-                        width: 2200,
+                        width: 2280,
                         quality: 80
                     }]
                 },

@@ -30,11 +30,15 @@ header {
     border: none;
 }
 
+.text-direction {
+    text-align: right;
+}
+
 .logo {
     padding-top: 10px;
 }
 
-.brand-name {
+.brand-name {    
     float: right;
     padding-top: 0px;
 }
@@ -95,9 +99,6 @@ footer {
 
     .hidden-md-down {
         display: none;
-    }
-    .text-direction {
-        text-align: right;
     }
 
     .logo {
@@ -178,9 +179,6 @@ footer {
     .brand-name h5 {
         font-size: 0.5em;
         margin-bottom: 0;
-    }
-    .text-direction {
-        text-align: right;
     }
 
     .nav-absolute {

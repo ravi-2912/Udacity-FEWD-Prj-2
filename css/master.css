@@ -96,12 +96,20 @@ footer {
     .hidden-md-down {
         display: none;
     }
+    .text-direction {
+        text-align: right;
+    }
 
     .logo {
-        height: 50px;
+        height: 70px;
         width: auto;
         vertical-align: bottom;
     }   
+    .brand-name {
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
     .brand-name h1 {
         font-size: 2.5em;
@@ -109,6 +117,7 @@ footer {
 
     .brand-name h5 {
         font-size: .75em;
+        margin-bottom: 0;
     }
 
     .navbar-nav a {
@@ -140,7 +149,11 @@ footer {
 
 @media screen and (max-width: 576px) {
     .navbar, .navbar-toggler {
-        padding: 5px;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        padding: 0;
     }
 
     .featured-work {
@@ -148,15 +161,14 @@ footer {
     }
 
     .logo {
-        height: 1.4em;
+        padding-top: 5px;
+        height: 45px;
         width: auto;
-        vertical-align: text-bottom;
+        vertical-align: top;
     }
 
-    .brand {
-        padding-top: 0;
-        padding-right: 0;
-        padding-left: 5px;
+    .brand-name {
+        padding-left: 8px;
     }
 
     .brand-name h1 {
@@ -165,6 +177,10 @@ footer {
 
     .brand-name h5 {
         font-size: 0.5em;
+        margin-bottom: 0;
+    }
+    .text-direction {
+        text-align: right;
     }
 
     .nav-absolute {
@@ -174,10 +190,21 @@ footer {
 }
 
 @media screen and (max-width: 350px) {    
+    .logo {
+        padding-top: 5px;
+        height: 30px;
+        width: auto;
+        vertical-align: top;
+    }
+
     .featured-work figcaption p {
         max-width: 250px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .brand-name {
+        padding-left: 3px;
     }
 
     .brand-name h1 {
